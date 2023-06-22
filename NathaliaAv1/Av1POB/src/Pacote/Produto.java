@@ -3,7 +3,7 @@ package Pacote;
 public class Produto {
 	
 	//Atributos
-	//ID, código de barras, sku, nome, descrição, categoria, preço, peso e fabricante
+	//ID, cÃ³digo de barras, sku, nome, descriÃ§Ã£o, categoria, preÃ§o, peso e fabricante
 	private int Id;
 	private String CodBarras;
 	private String SKU;
@@ -54,21 +54,6 @@ public class Produto {
 		this.Preco = precoInicial;
 		this.Peso = pesoInicial;
 		this.Fabricante = fabricante;
-	}
-	
-	public void Excluir(int id)
-	{
-		Produto.this.Id = null;
-	}
-	
-	public void Alterar(int id, String nomeAlterado, String descricaoAlterada, 
-			double precoAlterado, double pesoAlterado) {
-		
-		Produto.this.Nome = nomeAlterado;
-		Produto.this.Descricao = descricaoAlterada;
-		Produto.this.Preco = precoAlterado;
-		Produto.this.Peso = pesoAlterado;
-		
 	}
 	
 
